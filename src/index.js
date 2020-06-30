@@ -1,8 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import TestComponent from "./TestComponent";
 
-const App = () => (
-    <div>Hello world</div>
-)
-
-ReactDOM.render(<App/> ,document.getElementById("app"));
+ReactDOM.render(<TestComponent/> ,document.getElementById("app"));
